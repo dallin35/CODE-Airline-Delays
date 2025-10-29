@@ -35,13 +35,9 @@ Conclusion
   * `model.summary()`
 * Obtaining parameters of the linear fit.
   * `model.params`
-* Visualizing OLS model
-`fig, ax = plt.subplots()`
-`fig = sm.graphics.plot_fit(model_Simple, 0, ax=ax)`
-`plt.show()`
 * Plotting scatterplot with matplotlib
-`plt.scatter(X,Y)`
-`plt.show()`
+  * `plt.scatter(X,Y)`
+  * `plt.show()`
 
 ## Data Source and License
 
