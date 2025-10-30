@@ -1,0 +1,25 @@
+FL_DATE - Date of the flight, yy/mm/dd
+OP_CARRIER - Airline Identifier
+OP_CARRIER_NAME - Airline Name
+OP_CARRIER_FL_NUM - Flight Number
+ORIGIN - Starting Airport Code
+DEST - Destination Airport Code
+CRS_DEP_TIME - Planned Departure Time
+DEP_TIME - Actual Departure Time
+DEP_DELAY Total Delay on Departure in minutes
+TAXI_OUT - The time duration elapsed between departure from the origin aiport gate and wheels off
+WHEELS_OFF - The time point that the aircraft's wheels leave the ground
+WHEELS_ON - The time point that the aircraft's wheels touch the ground
+TAXI_IN - The time duration elapsed between wheels-on and gate arrival at the destination airport
+CRS_ARR_TIME - Planned arrival time
+ARR_TIME - Total Delay on Arrival in minute
+ARR_DELAY - Total Delay on Arrival in minutes
+CRS_ELAPSED_TIME - Planned time amount needed for the flight trip
+ACTUAL_ELAPSED_TIME - AIR_TIME+TAXI_IN+TAXI_OUT
+AIR_TIME - The time duration between wheels_off and wheels_on time
+DISTANCE - Distance between two airports
+CARRIER_DELAY - Delay caused by the airline in minutes
+WEATHER_DELAY - Delay caused by weather
+NAS_DELAY - Delay caused by air system
+SECURITY_DELAY
+LATE_AIRCRAFT_DELAY - Delay caused by security
